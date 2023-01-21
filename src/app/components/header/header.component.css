@@ -1,0 +1,21 @@
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+  }
+   
+  a:hover{
+    color: rgb(67, 255, 92);
+    border-bottom: 1px solid  rgb(58, 255, 51);
+    
+  }
+  h1{
+    color: rgb(67, 255, 92);
+    font-size: 30px;
+    font-family: 'Squid Game';
+  }

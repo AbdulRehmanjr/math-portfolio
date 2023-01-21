@@ -1,0 +1,5 @@
+#hero{
+    background: url("src/assets/back.jpg") top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
