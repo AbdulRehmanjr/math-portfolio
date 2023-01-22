@@ -11,20 +11,20 @@ export class MainServiceComponent {
   courses:course[] = [
     {
       name:'Math-121',
-      img:'assets/img/course-1.jpg',
-      description:'Description about your course few words.'
-    },{
-      name:'GCSE',
-      img:'assets/img/course-1.jpg',
-      description:'Description about your course few words.'
+      img:'assets/img/math121.jpg',
+      description:`Contact us for tutoring.`
     },{
       name:'iGCSE',
-      img:'assets/img/course-1.jpg',
-      description:'Description about your course few words.'
+      img:'assets/img/igcse.jpg',
+      description:`Contact us for tutoring.`
+    },{
+      name:'GCSE',
+      img:'assets/img/gcse.jpg',
+      description:`Contact us for tutoring.`
     },{
       name:'A-Level',
-      img:'assets/img/course-1.jpg',
-      description:'Description about your course few words.'
+      img:'assets/img/alevel.png',
+      description:`Contact us for tutoring.`
     }
   ]
 }

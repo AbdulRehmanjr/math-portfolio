@@ -2,7 +2,12 @@
   <section id="hero" class="d-flex justify-content-center align-items-center">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>Learning Today,<br>Leading Tomorrow</h1>
-      <h2>Add courses here</h2>
+      <ngx-typed-js [strings]="['GCSE', 'iGCSE','A Level','MATH-121']" [shuffle]="false" [typeSpeed]="40" [loop]="true" [backSpeed]="40">
+        <h2>Courses Available <span class="typing"></span></h2> 
+      </ngx-typed-js>
+      <a class= "contact" href="#contactus">
+        Contact Us
+      </a>
     </div>
   </section>
 </section>
