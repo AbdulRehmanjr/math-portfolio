@@ -8,23 +8,24 @@ import { Component } from '@angular/core';
 export class MainServiceComponent {
 
 
+  message:string = 'Contact us for more detail. Click on button.'
   courses:course[] = [
     {
       name:'Math-121',
       img:'assets/img/math121.jpg',
-      description:`Contact us for tutoring.`
+      description:`${this.message}`
     },{
       name:'iGCSE',
       img:'assets/img/igcse.jpg',
-      description:`Contact us for tutoring.`
+      description:`${this.message}`
     },{
       name:'GCSE',
       img:'assets/img/gcse.jpg',
-      description:`Contact us for tutoring.`
+      description:`${this.message}`
     },{
       name:'A-Level',
       img:'assets/img/alevel.png',
-      description:`Contact us for tutoring.`
+      description:`${this.message}`
     }
   ]
 }
