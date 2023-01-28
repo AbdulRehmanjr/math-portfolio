@@ -9,13 +9,12 @@
   
   #hero h1 {
       font-family: 'Squid Game';
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 700;
     color: #fff;
   }
   #hero h2 {
     color: #fff;
-    margin: 10px 0 0 0;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 15px;
   }
